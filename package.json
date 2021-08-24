@@ -1,0 +1,28 @@
+{
+  "name": "doctorbashiry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "live-server",
+    "build": "webpack",
+    "start": "http-server dist",
+    "serve": "webpack serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.0.0",
+    "http-server": "^13.0.1",
+    "live-server": "^1.2.1",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.3.5",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0"
+  }
+}
